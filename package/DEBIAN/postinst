@@ -10,7 +10,7 @@ StartLimitIntervalSec=0
 Type=simple
 Restart=always
 RestartSec=1
-ExecStart=/etc/ctu-mrs/usb-configrator-triggers/configurator.sh
+ExecStart=/etc/ctu-mrs/usb-configurator-triggers/configurator.sh
 [Install]
 WantedBy=multi-user.target" >> /etc/systemd/system/uav_configurator.service
 systemctl daemon-reload
