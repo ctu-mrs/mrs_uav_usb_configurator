@@ -1,5 +1,12 @@
 #!/bin/bash
+#remove pre-existing version of the systemctl service
+systemctl stop uav_configurator
+systemctl disable uav_configurator
+rm /etc/systemd/system/uav_configurator.service
+systemctl daemon-reload
+systemctl reset-failed
 
+#setup new systemctl service
 touch /etc/systemd/system/uav_configurator.service
 > /etc/systemd/system/uav_configurator.service
 echo "[Unit]
