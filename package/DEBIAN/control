@@ -1,0 +1,5 @@
+Package: mrs-uav-usb-configurator
+Version: 1.0.0
+Architecture: all
+Maintainer: Daniel Hert <daniel.hert@fel.cvut.cz>
+Description: Usb configurator

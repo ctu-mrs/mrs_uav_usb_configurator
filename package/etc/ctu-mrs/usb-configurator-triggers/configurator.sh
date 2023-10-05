@@ -1,7 +1,7 @@
 #!/bin/bash
 this_script_path="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 device=$(lsusb | grep -o ffff:ff..)
-script_name=${this_script_path}"/autoscripts/"${device: -2}".sh"
+script_name=${this_script_path}"/scripts/"${device: -2}".sh"
 
 is_connected=false
 was_connected=false
