@@ -1,3 +1,7 @@
 #!/bin/bash
+systemctl stop uav_configurator
 systemctl disable uav_configurator
+rm /etc/systemd/system/uav_configurator.service
+systemctl daemon-reload
+systemctl reset-failed
 
