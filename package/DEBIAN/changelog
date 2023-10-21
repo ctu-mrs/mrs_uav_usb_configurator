@@ -1,0 +1,5 @@
+mrs-uav-usb-configurator (1:1:1:1.0.0.20230825.074628.20231021.161246) unstable; urgency=medium
+
+  * Initial release. (1:1:Closes: #XXXXXX.20230825.074628.20231021.161246)
+
+ -- klaxalk <klaxalk@klaxalk>  Fri, 25 Aug 2023 07:38:33 +0200
